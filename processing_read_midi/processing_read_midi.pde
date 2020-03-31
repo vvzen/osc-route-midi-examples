@@ -20,7 +20,9 @@ int OSC_SEND_PORT = 12001;
 String MIDI_FILE_NAME = "pianocon.mid";
 
 void setup() {
-  size(512, 512);
+  
+  // No real need to show the processing window
+  surface.setVisible(false);
   
   oscP5 = new OscP5(this, OSC_RECEIVE_PORT);
   remoteAddress = new NetAddress("127.0.0.1", OSC_SEND_PORT);
