@@ -1,0 +1,18 @@
+{
+  "name": "piece-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vvz3n",
+  "license": "MIT",
+  "dependencies": {
+    "canvas-sketch": "^0.7.3",
+    "express": "^4.17.1",
+    "osc": "^2.4.0",
+    "three": "^0.115.0",
+    "ws": "^7.2.3"
+  }
+}
