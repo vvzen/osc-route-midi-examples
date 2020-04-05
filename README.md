@@ -8,12 +8,17 @@ OSC messages are sent on localhost using UDP as transport.
 
 You can run it via the processing-java binary.
 
-processing-java --sketch=/full/path/to/processing_read_midi --run
+`processing-java --sketch=/full/path/to/processing_read_midi --run`
 
 You can also export the .pde sketch to an app:
 
-processing-java --sketch=/full/path/to/processing_read_midi --output=/where/you/like --export
+`processing-java --sketch=/full/path/to/processing_read_midi --output=/where/you/like --export`
 
 ## node\_receive\_osc
+
+This example shows how to receive osc messages in nodejs using UDP as transport using the `osc` nodejs package.
+
+
+## node\-bridge\-osc
 
 This example shows how to receive osc messages in nodejs using UDP as transport and the osc package.
