@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "canvas-sketch": "^0.7.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "osc": "^2.4.0",
     "three": "^0.115.0",
     "ws": "^7.2.3"
